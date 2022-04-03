@@ -1,0 +1,18 @@
+img {
+    height: 30px;
+    width: auto;
+}
+
+a {
+   color: black;
+    text-decoration: none;
+}
+
+.select{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
