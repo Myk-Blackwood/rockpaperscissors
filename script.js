@@ -29,7 +29,7 @@ let userPlay = youPlay();
 function roundPlay(youPlay) {
     if (userPlay == computerPlay){
         alert("Draw! Draws dont count!");
-        console.log("Try again")
+        console.log("Draw - Try again")
         --games;
     }else if (userPlay == 1 && computerPlay == 2){
         alert("Computer chose Paper - You Win!");
@@ -71,11 +71,20 @@ function roundPlay(youPlay) {
 
 roundPlay();
 
+
 ++games;
 console.log("---Round:---" ,games);
 console.log("You played:", playerWord);
 console.log("Comp played:", compWord);
 console.log("Your Score:", playerScore);
 console.log("Comps Score:", computerScore);
+
+if (playerScore == 3){
+    let result = document.getElementById("win");
+        result.innerHTML = "You Win!!";
+} else {
+    let result = document.getElementById("win");
+        result.innerHTML = "You Lose!!";
+}
 
 }
