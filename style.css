@@ -8,8 +8,8 @@ a {
     text-decoration: none;
 }
 
-.select{
-    display: flex;
+.score{
+    display:flex;
     justify-content: space-around;
 }
 
@@ -21,7 +21,5 @@ h2 {
     text-align: center;
 }
 
-footer {
-   
-    
+
 }
