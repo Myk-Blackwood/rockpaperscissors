@@ -11,7 +11,7 @@ while (games < 5 && computerScore < 3 && playerScore < 3) {
     
     
     function youPlay(rock, paper, scissors){
-    userSelection = window.prompt("------------------------------ Rock, Paper or Scissors? ----------------------------------- -----------------------------------Best of five games! -------------------------------------- ------------------------------ Type your selection below! --------------------------------");
+    userSelection = window.prompt(" Rock, Paper or Scissors? Best of five games! Type your selection below!");
 
 if (userSelection.toLowerCase() == "scissors"){
     let userPlay= 1;
